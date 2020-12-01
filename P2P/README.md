@@ -35,7 +35,7 @@ To call any method we will use this
 Server.getInstance().isConnected()
 ```
 
-
+## Server
 
 ### Contents of Server
 

@@ -40,28 +40,28 @@ Server.getInstance().isConnected()
 ### Contents of Server
 
 ```java
-	public static Server instance;
+public static Server instance;
 ```
 
 This is the object instance to be shared with every class.
 
 ```
-	private ObjectOutputStream out = null;
-    private ObjectInputStream in = null;
+private ObjectOutputStream out = null;
+private ObjectInputStream in = null;
 ```
 
 out and in are the IO streams which will be used to send and receive data. Sir might use Buffered Reader class. But I love this.
 
 ```
-	private ServerSocket server;
-    private Socket connection;
+private ServerSocket server;
+private Socket connection;
 ```
 
 Here comes the main server part. The server socket creates a server. And the Socket connection will establish connection
 
 ```
-	private static final String LOCALHOST = "127.0.0.1";
-    public static int PORT = 26979;
+private static final String LOCALHOST = "127.0.0.1";
+public static int PORT = 26979;
 ```
 
 LOCALHOST and PORT are the address of the server. 127.0.0.1 is the address within a local network in a address there might be different port. We are going to listen at port 2679. This can be anything.
@@ -151,7 +151,7 @@ public void send(String s){
     try{
     	out.writeUnshared(s);
     } catch (IOException e) {
-    e.printStackTrace();
+    	e.printStackTrace();
     	connected = false;
     }
 }
@@ -175,17 +175,17 @@ Server.getInstance().closeServer();
 ```
 
 ```
- public void closeServer() {
-        connected = false;
-        if( connection!=null ){
-            try {
-                connection.close();
-                server.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        System.out.println("Closing connection");
+public void closeServer() {
+	connected = false;
+	if( connection!=null ){
+		try {
+			connection.close();
+			server.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	System.out.println("Closing connection");
 }
 ```
 

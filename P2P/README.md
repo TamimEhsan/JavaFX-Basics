@@ -19,13 +19,13 @@ Singleton is a class where you can only create only one instance. This is a kind
 
 The networking stuffs are in a new package called network. And the server is inside network. This is to ensure clean project structure.
 
-![](G:\JavaFX\JavaFX-Basics\P2P\Assets\folder.PNG)
+![](https://raw.githubusercontent.com/TamimEhsan/JavaFX-Basics/master/P2P/Assets/folder.PNG)
 
 
 
 ### Declaring a singleton
 
-![](G:\JavaFX\JavaFX-Basics\P2P\Assets\singletonDeclaration.PNG)
+![](https://raw.githubusercontent.com/TamimEhsan/JavaFX-Basics/master/P2P/Assets/singletonDeclaration.PNG)
 
 Here, in server class we declared the constructor as private , so no class can create any object. And we get the instance by calling the get instance method.
 
@@ -35,7 +35,7 @@ To call any method we will use this
 Server.getInstance().isConnected()
 ```
 
-
+## Server
 
 ### Contents of Server
 
@@ -76,7 +76,7 @@ Server.getInstance().setConnection();
 
 From main we call this method. And the method is->
 
-![](G:\JavaFX\JavaFX-Basics\P2P\Assets\serverSet.PNG)
+![](https://raw.githubusercontent.com/TamimEhsan/JavaFX-Basics/master/P2P/Assets/serverSet.PNG)
 
 The method runs a new thread. Because we don't know how much time it will be needed to establish a connection
 
@@ -222,11 +222,11 @@ In the setConnection method like server, we try to connect to the LOCALHOST addr
 
 At first run the serverJava then the client java. Otherwise client won't find anything to connect.
 
-![](G:\JavaFX\JavaFX-Basics\P2P\Assets\Connection.gif)
+![](https://raw.githubusercontent.com/TamimEhsan/JavaFX-Basics/master/P2P/Assets/Connection.gif)
 
 Then we can send messages using the terminal. UwU
 
-![](G:\JavaFX\JavaFX-Basics\P2P\Assets\Working.gif)
+![](https://raw.githubusercontent.com/TamimEhsan/JavaFX-Basics/master/P2P/Assets/Working.gif)
 
 
 

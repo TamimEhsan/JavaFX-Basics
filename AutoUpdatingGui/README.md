@@ -12,7 +12,7 @@ In this I will show how to auto update JavaFX gui using ObservableArrayList and 
 
 ## Data Flow
 
-![](G:\JavaFX\JavaFX-Basics\AutoUpdatingGui\Assets\dataFlow.PNG)
+![](https://raw.githubusercontent.com/TamimEhsan/JavaFX-Basics/master/AutoUpdatingGui/Assets/dataFlow.PNG)
 
 I usually use this model. I don't if this even has any name or not. But i guess it kinda resembles MVC and Room. 
 
@@ -26,7 +26,7 @@ This flow is pretty safe and is easy to understand for me.
 
 ## Project Tree
 
-![](G:\JavaFX\JavaFX-Basics\AutoUpdatingGui\Assets\projectStructure.PNG)
+![](https://raw.githubusercontent.com/TamimEhsan/JavaFX-Basics/master/AutoUpdatingGui/Assets/projectStructure.PNG)
 
 Like before, the files of this one is also divided in several packages for a better environment and look. I have a controllers package for all the controllers. But now I have only one in each package. viewFXML for fxml designs, network package for everything related to networking, data package for storing data.
 
@@ -38,7 +38,7 @@ Here I have the networking classes and Database (the name has nothing to do with
 
 ## Creating a GUI
 
-![](G:\JavaFX\JavaFX-Basics\AutoUpdatingGui\Assets\gui.PNG)
+![](https://raw.githubusercontent.com/TamimEhsan/JavaFX-Basics/master/AutoUpdatingGui/Assets/gui.PNG)
 
 The gui is pretty basic. In the left side we have a ListView which will used for auto update. We also have two buttons for adding and deleting data to and from view. And two labels for showing which item is selected. This is a demo video showing how this was created in scenebuilder:
 
@@ -210,7 +210,7 @@ That's it we are done for now. Run it and viola!
 
 ## Demo
 
-![](G:\JavaFX\JavaFX-Basics\AutoUpdatingGui\Assets\Demo.gif)
+![](https://raw.githubusercontent.com/TamimEhsan/JavaFX-Basics/master/AutoUpdatingGui/Assets/Demo.gif)
 
 
 

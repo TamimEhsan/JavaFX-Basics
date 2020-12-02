@@ -14,7 +14,7 @@ In this I will show how to auto update JavaFX gui using ObservableArrayList and 
 
 ![](https://raw.githubusercontent.com/TamimEhsan/JavaFX-Basics/master/AutoUpdatingGui/Assets/dataFlow.PNG)
 
-I usually use this model. I don't if this even has any name or not. But i guess it kinda resembles MVC and Room. 
+I usually use this model. I don't know if this even has any name or not. But i guess it kinda resembles MVC and Room. 
 
 Here the network never communicated directly with the application or the controller. This is due to the reason we can not update gui from any worker thread. Thus we ensure unwanted change in gui. 
 
@@ -40,9 +40,7 @@ Here I have the networking classes and Database (the name has nothing to do with
 
 ![](https://raw.githubusercontent.com/TamimEhsan/JavaFX-Basics/master/AutoUpdatingGui/Assets/gui.PNG)
 
-The gui is pretty basic. In the left side we have a ListView which will used for auto update. We also have two buttons for adding and deleting data to and from view. And two labels for showing which item is selected. This is a demo video showing how this was created in scenebuilder:
-
-Link of demo video:
+The gui is pretty basic. In the left side we have a ListView which will used for auto update. We also have two buttons for adding and deleting data to and from view. And two labels for showing which item is selected. This is a [demo video](https://github.com/TamimEhsan/JavaFX-Basics/blob/master/AutoUpdatingGui/Assets/creatingScene.mp4) showing how this was created in scenebuilder:
 
 How to install Scenebuilder:
 
@@ -179,7 +177,7 @@ Platform.runLater(
 
 
 
-We will use this snippet to update the observable list. Platform.runlater creates a request to application thread to run the code inside later in application thread. There are other ways to update gui too! Like using an animation timer. But as there will less update we can get away with this one easily. 
+We will use this snippet to update the observable list. Platform.runlater creates a request to application thread to run the code inside it later. There are other ways to update gui too! Like using an animation timer. But as there will less update we can get away with this one easily. 
 
 And we are done with adding data.
 
@@ -187,7 +185,7 @@ And we are done with adding data.
 
 ## Deleting data from list
 
-List view has a method which will return the selected item index of the list. We will use that and delete that index from the observable list. As we will do this inside application thread we don;t need run later.
+List view has a method which will return the selected item index of the list. We will use that and delete that index from the observable list. As we will do this inside application thread we don't need Platform.runlater.
 
 ```java
 public void deleteList(){

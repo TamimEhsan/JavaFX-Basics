@@ -40,13 +40,13 @@ And after the programme we see the db created. And notice the sign '?'. After we
 
 ```java
  try{
-            connection = DriverManager.getConnection("jdbc:sqlite:Database\\UserDB.db");
-            Statement statement = connection.createStatement();
-            statement.execute("CREATE TABLE IF NOT EXISTS users " +
-                    "(ID INTEGER PRIMARY KEY,username TEXT, taskDesc TEXT ,password TEXT)");
-        }catch (SQLException e){
-            System.out.println("error");
-        }
+    connection = DriverManager.getConnection("jdbc:sqlite:Database\\UserDB.db");
+    Statement statement = connection.createStatement();
+    statement.execute("CREATE TABLE IF NOT EXISTS users " +
+            "(ID INTEGER PRIMARY KEY,username TEXT, taskDesc TEXT ,password TEXT)");
+}catch (SQLException e){
+    System.out.println("error");
+}
 ```
 
 Each database model has their own style. JDBC for instance works with this statements. You create a new statement from the connection. And execute the sql command with that statement.
@@ -64,11 +64,11 @@ SQLite commands are little weak compare to SQL commands. You can't do many type 
 ```java
 String sql = "INSERT INTO users (username, password) " +
                 "VALUES ( '"+name+"' , '"+deadline+"' )";
-        try(Statement statement = connection.createStatement()){
-            statement.execute(sql);
-        } catch (SQLException e){
-            e.printStackTrace();
-        }
+try(Statement statement = connection.createStatement()){
+    statement.execute(sql);
+} catch (SQLException e){
+    e.printStackTrace();
+}
 ```
 
 

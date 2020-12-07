@@ -28,11 +28,11 @@ Here the jdbc:sqlite is usual syntax, then the next part is relative to the root
 
 Before running the program
 
-![Before](G:\JavaFX\JavaFX-Basics\Databse Integration\Assets\beforeDB.PNG)
+![Before](https://github.com/TamimEhsan/JavaFX-Basics/blob/master/DatabaseIntegration/Assets/beforeDB.PNG)
 
 Notice that the db folder is empty. And if we want to create like this create the folder Database yourself.
 
-![After](G:\JavaFX\JavaFX-Basics\Databse Integration\Assets\afterDB.PNG)
+![After](https://github.com/TamimEhsan/JavaFX-Basics/blob/master/DatabaseIntegration/Assets/afterDB.PNG)
 
 And after the programme we see the db created. And notice the sign '?'. After we have created the table the sign will change.
 

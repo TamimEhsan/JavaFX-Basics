@@ -4,7 +4,7 @@ import com.tamimehsan.network.Client;
 
 import java.util.Scanner;
 
-public class Main {
+public class ClientMain {
     private static Scanner scanner;
     public static void main(String[] args) {
         scanner = new Scanner(System.in);
@@ -12,12 +12,12 @@ public class Main {
         String messageToSend = "Henlo!";
         while( !messageToSend.equalsIgnoreCase("-1") ){
             messageToSend = scanner.nextLine();
-            if( Client.getInstance().isConnected() ){
-                Client.getInstance().send(messageToSend);
+            if( com.tamimehsan.network.Client.getInstance().isConnected() ){
+                com.tamimehsan.network.Client.getInstance().send(messageToSend);
             } else{
                 break;
             }
         }
-        Client.getInstance().closeClient();
+        com.tamimehsan.network.Client.getInstance().closeClient();
     }
 }

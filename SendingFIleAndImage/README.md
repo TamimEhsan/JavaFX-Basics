@@ -1,6 +1,6 @@
 # Data Transfer by Socket
 
-Sending string is already enough hassle in socket, let alone images and files. Files and images are non serializable in java. So we can't send them by sockets. But what we can do is store them in byte array and send that instead. It's as simple as that.
+Sending string is already enough hassle in socket, let alone images and files. Files and images are non serializable in java. So we can't send them by sockets. But what we can do is store them in byte array and send that instead. It's as simple as that. Here I have implemented a simple serialized object that can do that easily. Using it is as simple as it gets. The TransferObject can be found in the file above.
 
 Remarks: For simple tasks we can also send the location of the image and load the image from there. It will work only if the location is available for both the receiver and sender. If it is in same pc it will work, else we will have to use images from internet. 
 

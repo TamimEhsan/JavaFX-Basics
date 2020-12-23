@@ -118,6 +118,10 @@ WHERE username = 'Tamim Ehsan'
 
 Don't ever forget to write the WHERE clause, else it will delete all data from table users.
 
+### Extra resources
+
+[Music Database](https://github.com/hishamcse/JDBC_SQLite_EXAMPLE_CODES) - By [Syed Jarullah Hisham](https://github.com/hishamcse)
+
 
 
 So that's it for today!

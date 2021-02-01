@@ -1,5 +1,5 @@
 # JavaFX-Basics
-This is a basic tutorial for handling JavaFX applications
+This is a basic tutorial for handling JavaFX applications that some of us made for our(B18) CSE 108 . For any request create a issue or contact me on Facebook. And for any change create a pull request.
 
 
 
@@ -25,12 +25,14 @@ Some of them are bit more helpful like,
 
 ### Project Ideas
 
+- Multiplayer board games like chess
 - Online Judge similar to PC2. (For online and offline evaluation in sessional)
-- TypeRacer over local network and practice[http://play.typeracer.com/](http://play.typeracer.com/?fbclid=IwAR02LnLLZOZwwtczOdNc1jRtLUC2-lgnWnuenGJLFKkABgfQbqyUpbzx4es) GRE word practice (example: magoosh flash card) 
+- TypeRacer over local network and practice [http://play.typeracer.com/](http://play.typeracer.com/?fbclid=IwAR02LnLLZOZwwtczOdNc1jRtLUC2-lgnWnuenGJLFKkABgfQbqyUpbzx4es) 
+- GRE word practice (example: magoosh flash card) 
 - Digital Logic Simulator (example: CEDAR)
 -  Online MCQ Exam System
 - Online Learning System
-- Academic Newsgroup (Something like moodle with less functionalities)
+- Academic Newsgroup (Something like moooooodle or MS cheems with less functionalities)
 - Network monitoring and management system 
 - File sharing system (something like torrent)
 - Messenger (with Audio/Video calling)
@@ -43,15 +45,13 @@ Some of them are bit more helpful like,
 ### Some projects done by previous batches
 
 - [AKash](https://github.com/MJKSabit/AKash) - By Md. Jehadul Karim
-
 - [Share-A-BIT-Android](https://github.com/MJKSabit/Share-A-BIT-Android) - By Md. Jehadul Karim
-
 - [Tuition-E](https://github.com/TamimEhsan/Tuition-E) - By Md. Tamimul Ehsan
-
 - [RSA-Cryptography](https://github.com/hishamcse/RSA-Cryptography) - By Syed Jarullah Hisham
-
 - [FtpServer-Client](https://github.com/ashiqursuperfly/FtpServer-Client) - By Ashiqur Rahman
-
 - [Online-Judge-Project](https://github.com/ags3927/Online-Judge-Project) -By Aniruddha Ganguly
+- [BanglaSearchEngine_Onnesha_](https://github.com/KAIMonmoy/BanglaSearchEngine_Onnesha_) -By KAIMonmoy
+- [Online_Notepad_JavaFX](https://github.com/AwsafAlam/Online_Notepad_JavaFX) -By Md Awsaf Alam
+- [FtpServerForCSE108](https://github.com/TasinIshmam/FtpServerForCSE108) - By Tasin Ishmam
 
 
